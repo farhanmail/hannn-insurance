@@ -14,3 +14,80 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.logo {
+  box-shadow: 2;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.header-bg {
+  background: #a8d5ff;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  height: 63px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+
+.sidebar-open {
+  padding: 20px;
+}
+
+.sidebar-open:hover {
+  color: #65b3fd;
+  cursor: pointer;
+}
+
+.sidebar {
+  background: #bbdeff;
+  position: fixed;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  padding-left: 40;
+  transition-duration: 2s;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  background: black;
+  cursor: pointer;
+  opacity: 50%;
+  inset: 0;
+  visibility: visible;
+}
+
+.sidebar-close {
+  position: absolute;
+  left: 10px;
+  color: rgb(155, 153, 153);
+  margin: 18px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.sidebar-close:hover {
+  color: rgb(133, 70, 70);
+  cursor: pointer;
+}
+
+.sidebar-menu {
+  background: #7eb9f0;
+  font-size: medium;
+  padding-left: 30px;
+  padding-right: 15px;
+  color: #eff6fd;
+}
+
+.sidebar-menu:hover {
+  background: #65b3fd;
+  cursor: pointer;
+  border-radius: 0px 12px;
+  padding-left: 35px;
+  padding-top: 2px;
+}
