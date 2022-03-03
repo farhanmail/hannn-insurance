@@ -91,3 +91,90 @@ a {
   padding-left: 35px;
   padding-top: 2px;
 }
+
+.body {
+  padding-top: 63px;
+}
+
+.content-1 {
+  text-align: center;
+  justify-content: center;
+  background: url(../assets/img/Background-asuransi.jpg) no-repeat top center;
+  height: auto;
+  padding-top: 30px;
+}
+
+.style-content-1,
+h1 {
+  color: #dbeeff;
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.style-content-1-a {
+  font-size: 80px;
+  color: #179fcc;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.style-content-1-b {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.bg-style {
+  position: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.style-content-2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.style-content-2-a {
+  font-size: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.style-content-2-b {
+  padding-left: 10px;
+  padding-right: 5px;
+  letter-spacing: 5px;
+  font-size: 32px;
+  color: #179fcc;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.style-content-2-c {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.style-content-3 {
+  background: #62d8ff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.style-content-3-a {
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.style-content-3-b {
+  padding-top: 20px;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 30px;
+}
