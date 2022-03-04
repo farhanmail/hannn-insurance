@@ -200,22 +200,54 @@ h1 {
 .item-box:hover {
   cursor: pointer;
   background: #a9d5ff;
-  box-shadow: 5px 8px 8px #b9b9b9;
+  box-shadow: -5px -3px 10px #b9b9b9;
 }
 
 .style-content-item-a {
   font-size: 25px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .style-content-item-b {
   font-size: 35px;
   color: #179fcc;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .style-content-item-c {
   font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button-create {
+  padding-left: 20px;
+}
+
+.style-manage-content {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.manage-content {
+  padding: 20px 50px;
+  border-style: hidden;
+  border-radius: 10px;
+  background: #b7dcff;
+  padding-bottom: 20px;
+  margin: 10px 20px;
+}
+
+.manage-content:hover {
+  cursor: pointer;
+  background: #a1cffa;
+  box-shadow: -5px -3px 10px #b9b9b9;
+}
+
+.style-form {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
