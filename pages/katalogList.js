@@ -11,7 +11,7 @@ export default function KatalogList() {
             — <strong>LIST ASURANSI</strong> —
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col">
               <NextLink href="/detail">
                 <div className="content-item">
                   <div className="item-box">
@@ -24,7 +24,7 @@ export default function KatalogList() {
                 </div>
               </NextLink>
             </div>
-            <div className="col-4">
+            <div className="col">
               <NextLink href="/detail">
                 <div className="content-item">
                   <div className="item-box">
@@ -37,7 +37,7 @@ export default function KatalogList() {
                 </div>
               </NextLink>
             </div>
-            <div className="col-4">
+            <div className="col">
               <NextLink href="/detail">
                 <div className="content-item">
                   <div className="item-box">
@@ -50,7 +50,7 @@ export default function KatalogList() {
                 </div>
               </NextLink>
             </div>
-            <div className="col-4">
+            <div className="col">
               <NextLink href="/detail">
                 <div className="content-item">
                   <div className="item-box">
