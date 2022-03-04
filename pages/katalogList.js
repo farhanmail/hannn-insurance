@@ -10,6 +10,24 @@ export default function KatalogList() {
           <div className="style-content-3-a">
             — <strong>LIST ASURANSI</strong> —
           </div>
+          <form className="style-form d-flex flex-row-reverse">
+            <div className="row">
+              <div className="col-auto">
+                <div className="mb-3">
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    className="form-control"
+                  />
+                </div>
+              </div>
+              <div className="col-auto">
+                <button type="submit" className="btn btn-primary">
+                  Search
+                </button>
+              </div>
+            </div>
+          </form>
           <div className="row">
             <div className="col">
               <NextLink href="/detail">
